@@ -25,7 +25,7 @@
     font-weight: 400;
 }
 .card-title{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 }
 .card-body{
     font-size: 1.1rem;
@@ -55,6 +55,8 @@
 .features-me{
     padding: 3% 2%;
     text-align: center;
+    /* width:20%;
+    height: 30%; */
 }
 .card{
     align-items: center;
@@ -92,4 +94,9 @@ h1{
     font-size: large;
     text-align: center;
     padding: 1.5rem;
+}
+img.card-img-top{
+    border-radius: 10px;
+    /* max-width: 20rem;
+    max-height: 30rem; */
 }
