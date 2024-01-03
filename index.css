@@ -100,3 +100,14 @@ img.card-img-top{
     /* max-width: 20rem;
     max-height: 30rem; */
 }
+@media (max-width: 1080px) {  
+    .card-title{
+        font-size: large;
+    }
+    .card-body{
+        font-size: smaller;
+    }
+    *{
+        box-sizing: content-box;
+    }
+}
