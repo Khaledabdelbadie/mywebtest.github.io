@@ -100,7 +100,7 @@ img.card-img-top{
     /* max-width: 20rem;
     max-height: 30rem; */
 }
-@media (max-width: 1080px) {  
+@media (max-width: 1028px) {  
     .card-title{
         font-size: large;
     }
