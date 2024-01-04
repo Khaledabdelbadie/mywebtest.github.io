@@ -95,12 +95,12 @@ h1{
     text-align: center;
     padding: 1.5rem;
 }
-img.card-img-top{
+.card-img-top{
     border-radius: 10px;
     /* max-width: 20rem;
     max-height: 30rem; */
 }
-@media (max-width: 1028px) {  
+@media (max-width: 575px) {  
     .card-title{
         font-size: 1.8rem;
     }
@@ -109,5 +109,11 @@ img.card-img-top{
     }
     *{
         box-sizing: content-box;
+    }
+    .card-img-top{
+        width: 70% ;
+    }
+    .features-me{
+        width: 70%;
     }
 }
