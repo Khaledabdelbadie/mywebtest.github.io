@@ -102,10 +102,10 @@ img.card-img-top{
 }
 @media (max-width: 1028px) {  
     .card-title{
-        font-size: large;
+        font-size: 1.8rem;
     }
     .card-body{
-        font-size: smaller;
+        font-size: 1rem;
     }
     *{
         box-sizing: content-box;
