@@ -1,6 +1,8 @@
 from tkinter import *
 from random import *
 from tkinter import messagebox
+import pyperclip
+
 
 FONT = "SF Pro"
 LETTERS = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -24,6 +26,7 @@ def generate_pass():
 
     ai_pass = ''.join(password_list)
     password_entry.insert(0, ai_pass)
+    pyperclip.copy(ai_pass)
 
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
